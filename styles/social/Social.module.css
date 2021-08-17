@@ -1,0 +1,36 @@
+.container {
+  margin-top: 16px;
+  vertical-align: middle;
+}
+
+a.iconLink {
+  font-size: 20px;
+  margin-right: 12px;
+  color: var(--light-grey);
+  text-decoration: none;
+  transition: color 200ms;
+}
+
+a.iconLink svg {
+  position: relative;
+  top: 3px;
+  height: 21px;
+  width: 21px;
+}
+
+a.iconLink svg path:nth-child(1) {
+  fill: var(--light-grey);
+  transition: fill 200ms;
+}
+
+a.iconLink svg path:nth-child(2) {
+  fill: var(--background-color);
+}
+
+a.iconLink:hover {
+  color: var(--dark-grey);
+}
+
+a.iconLink:hover svg path:nth-child(1) {
+  fill: var(--dark-grey);
+}
