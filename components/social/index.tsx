@@ -5,7 +5,7 @@ export default function Social() {
     <div className={styles.container}>
       <a
         className={styles.iconLink}
-        href="https://drive.google.com/file/d/1zsKg1azeyYGxP31UBT8QshMFCY3fe64i/view?usp=sharing"
+        href="/Resume%20-%20Oustan%20Ding.pdf"
         target="_blank"
         rel="noreferrer"
       >

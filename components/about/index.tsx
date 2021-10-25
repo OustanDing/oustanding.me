@@ -2,10 +2,9 @@ export default function About() {
   return (
     <>
       <p>
-        I&apos;m a 2nd-year Software Engineering student at the University of
-        Waterloo with a strong interest in full stack engineering. This fall,
-        I&apos;m returning to Wish as a SWE intern on the Logistics team. Here
-        is my{" "}
+        I&apos;m a 3rd-year Software Engineering student at the University of
+        Waterloo with a strong interest in full stack engineering. Currently,
+        I&apos;m a SWE intern at Wish. Here is my{" "}
         <a
           className="text-link"
           href="/Resume%20-%20Oustan%20Ding.pdf"
@@ -27,12 +26,11 @@ export default function About() {
         >
           UWBlueprint
         </a>
-        , my team and I are building an accessible parking permit portal for
-        Richmond Centre for Disability, a non-profit organization based in
-        British Columbia.
+        , I&apos;m leading a team of 10 student developers and designers to
+        build software for non-profit organizations.
       </p>
       <p>
-        I 💙&nbsp; building projects to bring my ideas to life and learn
+        I 💙&nbsp; building projects to bring my ideas to life and to learn
         something new every day. So far, I&apos;ve built a{" "}
         <a
           className="text-link"
@@ -74,7 +72,7 @@ export default function About() {
       <p>
         When I&apos;m not coding, you&apos;ll find me going on drives with my
         family 🚗&nbsp;, queuing up a game with the squad 🕹️&nbsp;, playing the
-        piano 🎹&nbsp;, or finally catching up on some K-dramas 📺&nbsp;.
+        piano 🎹&nbsp;, or catching up on K-dramas 📺&nbsp;.
       </p>
       <p>
         If you would like to chat about anything and everything, please feel
