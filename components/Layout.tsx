@@ -1,12 +1,8 @@
+import { FC } from "react"; // React
 import styles from "styles/Layout.module.css"; // Component styles
 import Head from "next/head"; // Next Head
-import { ReactNode } from "react"; // React
 
-type Props = {
-  children: ReactNode;
-};
-
-export default function Layout({ children }: Props) {
+const Layout: FC = ({ children }) => {
   return (
     <>
       <Head>
@@ -51,4 +47,6 @@ export default function Layout({ children }: Props) {
       <div className={styles.container}>{children}</div>
     </>
   );
-}
+};
+
+export default Layout;

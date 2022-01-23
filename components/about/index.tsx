@@ -1,10 +1,12 @@
-export default function About() {
+import { FC } from "react";
+
+const About: FC = () => {
   return (
     <>
       <p>
         I&apos;m a 3rd-year Software Engineering student at the University of
-        Waterloo with a strong interest in full stack engineering. Currently,
-        I&apos;m a SWE intern at Wish. Here is my{" "}
+        Waterloo with a passion for full stack engineering and consumer
+        software. Here is my{" "}
         <a
           className="text-link"
           href="/Resume%20-%20Oustan%20Ding.pdf"
@@ -24,14 +26,14 @@ export default function About() {
           target="_blank"
           rel="noreferrer"
         >
-          UWBlueprint
+          UW Blueprint
         </a>
-        , I&apos;m leading a team of 10 student developers and designers to
-        build software for non-profit organizations.
+        , I&apos;m leading a team of 9 student developers and designers to build
+        open-source software for non-profit organizations.
       </p>
       <p>
-        I 💙&nbsp; building projects to bring my ideas to life and to learn
-        something new every day. So far, I&apos;ve built a{" "}
+        I 💙 building projects to bring my ideas to life and to learn something
+        new every day. So far, I&apos;ve built a{" "}
         <a
           className="text-link"
           href="https://autodj.party"
@@ -98,4 +100,6 @@ export default function About() {
       </p>
     </>
   );
-}
+};
+
+export default About;

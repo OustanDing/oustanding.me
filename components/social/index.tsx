@@ -1,6 +1,7 @@
+import { FC } from "react";
 import styles from "styles/social/Social.module.css"; // Component styles
 
-export default function Social() {
+const Social: FC = () => {
   return (
     <div className={styles.container}>
       <a
@@ -88,4 +89,6 @@ export default function Social() {
       </a>
     </div>
   );
-}
+};
+
+export default Social;
