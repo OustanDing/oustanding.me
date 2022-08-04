@@ -6,7 +6,17 @@ const About: FC = () => {
       <p>
         I&apos;m a 3rd-year Software Engineering student at the University of
         Waterloo with a passion for full stack engineering and consumer
-        software. Here is my{" "}
+        software. Currently at{" "}
+        <a
+          className="text-link"
+          href="https://www.bloomberg.com/company/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Bloomberg
+        </a>{" "}
+        working on distributed systems for the ETF primary marketplace platform.
+        Here is my{" "}
         <a
           className="text-link"
           href="/Resume%20-%20Oustan%20Ding.pdf"
@@ -18,8 +28,8 @@ const About: FC = () => {
         :)
       </p>
       <p>
-        With how powerful and widely accessible software is today, the positive
-        impact of my work is my biggest motivation. As a Technical Lead on{" "}
+        I&apos;m extremely motivated by the positive impact of my work. As a
+        Technical Lead on{" "}
         <a
           className="text-link"
           href="https://uwblueprint.org"
@@ -28,12 +38,12 @@ const About: FC = () => {
         >
           UW Blueprint
         </a>
-        , I&apos;m leading a team of 9 student developers and designers to build
+        , I lead a team of 10 student developers and designers to build
         open-source software for non-profit organizations.
       </p>
       <p>
-        I 💙 building projects to bring my ideas to life and to learn something
-        new every day. So far, I&apos;ve built a{" "}
+        I 💙 learning new things and building projects to bring my ideas to
+        life. So far, I&apos;ve built a{" "}
         <a
           className="text-link"
           href="https://autodj.party"
@@ -60,7 +70,8 @@ const About: FC = () => {
         >
           collaborative code editor/whiteboard
         </a>
-        . I&apos;ve also lost many hours of sleep at various{" "}
+        , with more to come.
+        {/* I&apos;ve also lost many hours of sleep at various{" "}
         <a
           className="text-link"
           href="https://devpost.com/OustanDing"
@@ -69,7 +80,7 @@ const About: FC = () => {
         >
           hackathons
         </a>
-        .
+        . */}
       </p>
       <p>
         When I&apos;m not coding, you&apos;ll find me going on drives with my
@@ -77,8 +88,7 @@ const About: FC = () => {
         piano 🎹&nbsp;, or catching up on K-dramas 📺&nbsp;.
       </p>
       <p>
-        If you would like to chat about anything and everything, please feel
-        free to reach out through{" "}
+        If you&apos;d like to chat, please feel free to reach out through{" "}
         <a
           className="text-link"
           href="https://www.linkedin.com/in/oustanding/"
